@@ -1,0 +1,11 @@
+//session
+
+export const SAVE_SESSION = 'SAVE_SESSION'
+export const REMOVE_SESSION = 'REMOVE_SESSION'
+export const UPDATE_ACCESS_TOKEN = 'UPDATE_ACCESS_TOKEN'
+export const UPDATE_REFRESH_TOKEN = 'UPDATE_REFRESH_TOKEN'
+export const UPDATE_SESSION_USER = 'UPDATE_SESSION_USER'
+
+// reset store
+
+export const RESET_STORE = 'RESET_STORE'

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "baseUrl": "src",
+        "module": "commonjs",
+        "paths": {
+            "@api/*": ["./Api/*"],
+            "@components/*": ["./Components/*"],
+            "@constants/*": ["./Constants/*"],
+            "@Hoc/*": ["c/Hoc/*"],
+            "@container/*": ["./Container/*"],
+            "@actions/*": ["./Actions/*"],
+            "@reducer/*": ["./Reducers/*"]
+        }
+    },
+
+    "exclude": [
+        "node_modules",
+        "public"
+    ]
+}

@@ -7,7 +7,7 @@
             "@api/*": ["./Api/*"],
             "@components/*": ["./Components/*"],
             "@constants/*": ["./Constants/*"],
-            "@Hoc/*": ["c/Hoc/*"],
+            "@Hoc/*": ["./Hoc/*"],
             "@container/*": ["./Container/*"],
             "@actions/*": ["./Actions/*"],
             "@reducer/*": ["./Reducers/*"]

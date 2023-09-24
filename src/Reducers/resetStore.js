@@ -11,6 +11,7 @@ const resetStore = (state,action)=>{
         case RESET_STORE:
              state = {};
              localStorage.removeItem('persist:root');
+             return appReducer(state,action)
         default:
            return appReducer(state,action)
     }

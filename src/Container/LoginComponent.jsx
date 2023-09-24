@@ -5,7 +5,6 @@ import { Button, Form, Input, Space } from 'antd';
 const SubmitButton = ({ form }) => {
   const [submittable, setSubmittable] = React.useState(false);
 
-  // Watch all values
   const values = Form.useWatch([], form);
   React.useEffect(() => {
     form
@@ -32,12 +31,13 @@ const LoginComponent = () => {
 
 
   const onSubmit = (event)=>{
-event.preventDefault()
-console.log(event)
+
 
   }
 
   return (
+  <>
+  login
     <Form form={form} name="validateOnly" layout="vertical" autoComplete="off" onFinish={onSubmit}>
       <Form.Item
         name="username"
@@ -70,6 +70,7 @@ console.log(event)
         </Space>
       </Form.Item>
     </Form>
+    </>
   );
 };
 export default LoginComponent;
